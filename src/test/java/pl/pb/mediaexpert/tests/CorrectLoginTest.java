@@ -10,7 +10,7 @@ public class CorrectLoginTest extends TestBase {
 
 
     @Test
-    public void correctLogin() {
+    public void asUserLoginUsingValidLoginAndPassword() {
         LoginPage loginPage = new LoginPage();
         loginPage
                 .goToLoginPage()
