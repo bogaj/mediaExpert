@@ -1,0 +1,1 @@
+{"uuid":"32915550-38de-4cb1-8376-f9a41fd3fcd9","name":"pl.pb.mediaexpert.tests.CorrectLoginTest","children":["4bd03307-6794-4c41-898f-a41db9f2d572"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677777161550,"stop":1677777161566}],"afters":[],"start":1677777161506,"stop":1677777165321}
