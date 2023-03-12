@@ -11,6 +11,7 @@ public class IncorrectLoginTest extends TestBase {
 
     @Test
     public void asUserTryToLoginWithIncorrectEmailAndPassword(){
+
         LoginPage loginPage = new LoginPage();
         loginPage
                 .goToLoginPage()
@@ -18,8 +19,9 @@ public class IncorrectLoginTest extends TestBase {
         loginPage.typeUserEmailInField("incorrectEmail@op.pl")
                 .typePasswordInField("wrongPassword")
                 .clickOnLoginButton();
-        SelenideElement msgAfterIncorrectLogin = $x("//div[@class='alert-content']");
-        msgAfterIncorrectLogin.shouldHave(text("Nieprawidłowa nazwa użytkownika lub hasło."));
+       SelenideElement msgAfterIncorrectLogin = $x("//div[@class='alert-content']");
+       msgAfterIncorrectLogin.shouldHave(text("Nieprawidłowa nazwa użytkownika lub hasło."));
+
     }
 
 

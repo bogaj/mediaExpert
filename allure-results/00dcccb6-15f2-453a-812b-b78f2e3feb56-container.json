@@ -1,0 +1,1 @@
+{"uuid":"00dcccb6-15f2-453a-812b-b78f2e3feb56","name":"pl.pb.mediaexpert.tests.CorrectLoginTest","children":["be24fce7-3831-4d59-8151-eba6044a5205"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677957079762,"stop":1677957079792}],"afters":[],"start":1677957079720,"stop":1677957089955}

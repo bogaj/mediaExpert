@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Media Expert all tests">
+
+    <test name="Negative Login Test">
+        <classes>
+            <class name="pl.pb.mediaexpert.tests.IncorrectLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Positive Login Test">
+        <classes>
+            <class name="pl.pb.mediaexpert.tests.CorrectLoginTest"/>
+        </classes>
+    </test>
+    <test name="Add to cart test">
+        <classes>
+            <class name="pl.pb.mediaexpert.tests.AddTvToCartWithoutLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
